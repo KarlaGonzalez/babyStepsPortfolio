@@ -1,0 +1,548 @@
+@import "_mixins";
+@import "_variables";
+
+
+
+/* ------- CÓDIGO CSS HOME-------*/
+
+body {
+	font-family: "Open Sans Condensed"
+}
+header {
+	h1 {
+		color: $love;
+		font-weight: bold;
+		margin-bottom: 0px;
+		font-size: $ta;
+	}
+	span:hover {
+		color: $love;
+	}
+	a {
+		text-decoration: none;
+		color: gray !important;
+		font-size: $v;
+		font-weight: bold;
+	}
+	a:hover {
+		background-color: white !important;
+	}
+	.pink {
+		color: $pink;
+		font-weight: bold;
+	}
+	.navbar-default {
+	background-color: white;
+	border-color: hidden;
+	margin-bottom: 10px;
+	}
+	li {
+		margin-left: $v;
+	}
+	ul.nav.navbar-nav {
+		margin-left: $cua;
+		margin-top: 30px;
+	}
+}
+
+#bg-nick {
+	height: 450px;
+	.box {
+		@include box-pink;
+	}
+	img {
+		height: $cua;
+		width: 1119px;
+	}
+	.slider {
+		position: relative;
+    -webkit-transition: 0.5s left;
+    -moz-transition: 0.5s left;
+    -ms-transition: 0.5s left;
+    -o-transition: 0.5s left;
+	}
+}
+
+#more {
+	height: $tc;
+	img {
+		font-size: 30px;
+		color: $love;
+		padding-right: $ta;
+		padding-bottom: $v;
+	}
+	li {
+		display: inline-block;
+	}
+	ul {
+		padding-left: 0px;
+	}
+	h5 {
+		font-weight: bold;
+		color: $love;
+	}
+	p {
+		font-size: $pq;
+	}
+	button {
+		background-color: $love;
+	}
+	.mo {
+		color: white;
+		font-size: $pq;
+	}
+}
+
+#fromblog {
+	height: 70px;
+	h4 {
+		font-weight: bold;
+		color: $love;
+		padding-right: $ci;
+	}
+	.border, h4, img {
+		display: inline-block;
+	}
+	.border {
+		background-image: url("../images/border-bg.png");
+		height: $v;
+		width: 930px;
+	}
+}
+
+#fromblog2 {
+	height: 70px;
+	h4 {
+		font-weight: bold;
+		color: $love;
+		padding-right: $ci;
+	}
+	.border, h4, img {
+		display: inline-block;
+	}
+	.border {
+		background-image: url("../images/border-bg.png");
+		height: $v;
+		width: 870px;
+	}
+}
+
+#imgs {
+	height: $tc;
+	h4 {
+		color: gray;
+		font-weight: bold;
+	}
+	h5 {
+		color: $love;
+		font-weight: bold;
+	}
+	img {
+		width: 260px;
+	}
+	.blog_post_meta {
+		border: 1px solid $grisi;
+		border-top: hidden;
+	}
+}
+
+#imgs2 {
+	height: $tc;
+	h4 {
+		color: gray;
+		font-weight: bold;
+	}
+	h5 {
+		color: $love;
+		font-weight: bold;
+	}
+	img {
+		width: 260px;
+	}
+	.blog_post_meta {
+		border: 1px solid $grisi;
+		border-top: hidden;
+	}
+}
+
+footer {
+	height: $tc;
+	.foot {
+	background-color: $love;
+	height: $tc;
+	}
+	h2, p {
+		color: white;
+	}
+	h2 {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	p {
+		font-size: 18px;
+		font-weight: normal;
+	}
+	.box2 {
+		@include box-pink2;
+	}
+}
+
+/*--------------------------------ABOUT US-----------------------------------*/
+
+/*-----HEADER / HOME-----*/
+
+#about {
+	height: 90px;
+	.d-love {
+		height: $cu;
+		width: $pj;
+		background-color: $love;
+	}
+	h3 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-weight: bold;
+		color: white;
+		padding-left: $v;
+		padding-top: 10px;
+	}
+}
+
+#main {
+	height: 800px;
+	img {
+		width: $dos;
+		height: $dos;
+		background-color: white;
+		border: 1px solid $grisi;
+	}
+	p {
+		font-size: $pq;
+		font-weight: bold;
+	}
+	.imi {
+		width: $dos;
+	}
+	img, .imi, .bord, h4 {
+		display: inline-block;
+	}
+	h4 {
+		font-weight: bold;
+		color: $love;
+		padding-right: 90px;
+	}
+	.bordi {
+		padding-right: 70px;
+		display: inline-block;
+	}
+	.bord {
+		background-image: url("../images/border-bg.png");
+		height: $v;
+		width: 130px;
+	}
+	.bord-dusque {
+		width: 10px;
+		height: 90px;
+		background-color: $love;
+	}
+	li .pp, .bord-dusque {
+		display: inline-block;
+	}
+	.pp {
+		color: $pink;
+	}
+	.p-dusque {
+		width: 600px;
+		height: 200px;
+	}
+	.boxi {
+		@include box-pink;
+		display: inline-block;
+		border: 1px solid $love;
+		background-color: #eea5a7;
+	}
+}
+
+/* ----- FOOTER / HOME------*/
+
+
+
+
+/*--------------------------------ABOUT US-----------------------------------*/
+
+/*-----HEADER / HOME-----*/
+
+/*<!-- SECTION / ABOUT-->*/
+
+#pollo {
+	height: 800px;
+	.icone {
+		width: $cu;
+		height: 70px;
+	}
+	h4 {
+		color: $love;
+		font-weight: bold;
+	}
+	p {
+		font-size: $pq;
+		font-weight: bold;
+	}
+	.d-pollo {
+		width: 800px;
+		height: $cua;
+		background-image: url("../images/post1.png");
+	}
+	.boxi {
+		@include box-pink;
+		display: inline-block;
+		border: 1px solid $love;
+		background-color: #eea5a7;
+	}
+	.date {
+		font-size: $pq;
+		color: gray;
+		font-weight: bold;
+	}
+	.dat {	
+		padding-top: $ta;
+	}
+	h5 {
+		color: $love;
+		font-weight: bold;
+	}
+	.bordert {
+		background-image: url("../images/border-bg.png");
+		height: $v;
+		width: $pj;
+		margin-top: $cu;
+	}
+}
+
+#jesus {
+	height: 750px;
+	.d-jesus {
+		width: $pj;
+		height: $cua;
+		background-image: url("../images/post2.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	h4 {
+		color: $love;
+		font-weight: bold;
+	}
+	p {
+		font-size: $pq;
+		font-weight: bold;
+	}
+	.dat {	
+		padding-top: $ta;
+	}
+	h5 {
+		color: $love;
+		font-weight: bold;
+	}
+	.icone {
+		width: $cu;
+		height: 70px;
+	}
+	.bor {
+		background-image: url("../images/border-bg.png");
+		height: $v;
+		width: $pj;
+	}
+
+}
+
+#conejo {
+	height: 800px;
+	.vid {
+		width: $cu;
+		height: 70px;
+	}
+	.vid-big {
+		width: $pj;
+		height: $cua;
+	}
+	h4 {
+		color: $love;
+		font-weight: bold;
+	}
+	p {
+		font-size: $pq;
+		font-weight: bold;
+	}
+	.dat {	
+		padding-top: $ta;
+	}
+	h5 {
+		color: $love;
+		font-weight: bold;
+	}
+	.bor {
+		background-image: url("../images/border-bg.png");
+		height: $v;
+		width: $pj;
+	}
+}
+
+#quote {
+	height: 200px;
+	.vid2 {
+		@include box-pink;
+	}
+	.caja-gris {
+		width: $pj;
+		height: $ci;
+		background-color: $grisi;
+	}
+	.bor {
+		background-image: url("../images/border-bg.png");
+		height: $v;
+		width: $pj;
+	}
+	.cote {
+		width: 30px;
+		height: 30px;
+	}
+	p {
+		font-weight: bold;
+		font-size: $pq;
+	}
+	li {
+		display: inline-block;
+	}
+}
+
+#enlace {
+	height: $cua;
+	.bor {
+		background-image: url("../images/border-bg.png");
+		height: $v;
+		width: $pj;
+	}
+	h4 {
+		color: $love;
+		font-weight: bold;
+	}
+	p {
+		font-size: $pq;
+		font-weight: bold;
+	}
+	a {
+		font-size: $pq;
+		color: $grisi;
+	}
+	.mg {
+		padding-top: $ta;
+	}
+	.enla {
+		height: 150px;
+		width: $pj;
+	}
+	.num {
+		width: $ta;
+		height: $ta;
+		background-color: $love;
+		border: 1px solid gray;
+		display: inline-block;
+	}
+	span {
+		color: white;
+		font-size: $v;
+	}
+}
+/*-----FOOTER / HOME------*/
+
+/*--------------------------------CONTACT US-----------------------------------*/
+/*-----HEADER / HOME-----*/
+
+/*<!-- SECTION / ABOUT-->*/
+#mapa {
+	height: $oc;
+	.mapi {
+		@include back;
+		width: $pj;
+		height: $cua;
+		background-image: url("../images/map.png");
+	}
+	h4 {
+		color: $love;
+		font-weight: bold;
+	}
+	p {
+		font-size: $pq;
+		font-weight: bold;
+	}
+	.boxi {
+		@include box-pink;
+		display: inline-block;
+		border: 1px solid $love;
+		background-color: #eea5a7;
+	}
+	.dati {
+		padding-top: $ta;
+	}
+	.forma {
+		width: 300px;
+		height: $ta;
+		margin-top: $v;
+		border: 1px solid $love;
+	}
+	textarea {
+		border: 1px solid $love;
+		margin-top: $v;
+	}
+	button {
+		background-color: $love;
+	}
+	span {
+		color: white;
+		font-weight: bold;
+		font-size: $v;
+	}
+}
+
+/*----------------------------Portfolio--------------------------*/
+/*-----HEADER / HOME-----*/
+
+/*<!-- SECTION / ABOUT-->*/
+#catego {
+	height: $ci;
+	li {
+		display: inline-block;
+		margin-left: $pq;
+	}
+	h4, h5 {
+		font-weight: bold;
+	}
+	li:hover {
+		background-color: $love;
+	}
+	h5 {
+		color: gray;
+	}
+	h5:hover {
+		color: white;
+	}
+}
+
+#wally {
+	height: 1000px;
+	.wa {
+		@include wal;
+	}
+	.d-wall {
+		@include dw;
+	}
+	h4 {
+		@include hw;
+	}
+	h6 {
+		@include h-rd; 
+	}
+	.y {
+		padding-top: $ta;
+	}
+}

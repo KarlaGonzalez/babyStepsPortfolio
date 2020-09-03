@@ -1,0 +1,42 @@
+ /*<!-- // MIXINS -->*/
+@mixin box-pink {
+	width: $cu;
+	height: $cu;
+}
+
+@mixin box-pink2 {
+	width: $cu;
+	height: $tc;
+}
+
+@mixin back {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@mixin wal {
+	width: 260px;
+	height: 200px;
+	border: 1px solid $grisi;
+	padding: 3px;
+	background-color: white;
+}
+
+@mixin dw {
+	width: $pj;
+	height: 70px;
+	border: 1px solid $grisi;
+	border-top: hidden;
+}
+
+@mixin hw {
+	font-weight: bold;
+	color: $grisi;
+	padding-left: 10px;
+}
+
+@mixin h-rd {
+	color: $love;
+	font-weight: bold; 
+	padding-left: 10px;
+}
