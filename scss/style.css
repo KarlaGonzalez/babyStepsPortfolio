@@ -205,9 +205,10 @@ button.slick-prev {
 }
 #proyecto #descriptions {
   display: none;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
-#proyecto #descriptions .description-musseum, #proyecto #descriptions .description-awards, #proyecto #descriptions .description-gema {
+#proyecto #descriptions .description-musseum, #proyecto #descriptions .description-awards, #proyecto #descriptions .description-gema, #proyecto #descriptions .description-santander {
   display: none;
 }
 #proyecto #descriptions .description-musseum {
@@ -219,7 +220,10 @@ button.slick-prev {
 #proyecto #descriptions .description-gema {
   color: darkblue;
 }
-#proyecto .description-musseum, #proyecto .description-awards, #proyecto .description-gema {
+#proyecto #descriptions .description-santander {
+  color: red;
+}
+#proyecto .description-musseum, #proyecto .description-awards, #proyecto .description-gema, #proyecto .description-santander {
   display: none;
 }
 #proyecto .list:after,
@@ -253,6 +257,14 @@ button.slick-prev {
   background-image: url(../img/gumm.png);
   background-position: bottom;
   background-size: 200px 300px;
+}
+#proyecto .p4 {
+  /*@include pro;*/
+  background-repeat: no-repeat;
+  height: 100px;
+  background-image: url(../img/logo_recompensas.jpeg);
+  background-position: center;
+  background-size: 200px 200px;
 }
 #proyecto .list > li {
   width: 220px;
@@ -339,8 +351,7 @@ button.slick-prev {
   }*/
 }
 #contacto .h1_con {
-  color: #fff;
-  /*31EFBB*/
+  color: #fff; /*31EFBB*/
   text-align: left;
   padding: 20px 0px;
   padding: 0;
@@ -387,17 +398,13 @@ button.slick-prev {
   #karla {
     height: 30rem;
   }
-
   #proyecto {
     height: 105rem;
   }
-
   #contacto {
     margin-top: 12vh;
   }
   #contacto .h1_con {
     text-align: center;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

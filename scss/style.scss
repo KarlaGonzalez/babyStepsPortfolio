@@ -201,8 +201,9 @@ button.slick-prev {
 	}
 	#descriptions {
 		display: none;
+		font-size: 2.5rem;
 		margin-bottom: 2rem;
-		.description-musseum, .description-awards, .description-gema {
+		.description-musseum, .description-awards, .description-gema, .description-santander {
 			display: none;
 		}
 		.description-musseum {
@@ -214,8 +215,11 @@ button.slick-prev {
 		.description-gema {
 			color: darkblue;
 		}
+		.description-santander {
+			color: red;
+		}
 	}
-	.description-musseum, .description-awards, .description-gema {
+	.description-musseum, .description-awards, .description-gema, .description-santander {
 		display: none;
 	}
 
@@ -252,6 +256,15 @@ button.slick-prev {
 		background-position: bottom;
     background-size: 200px 300px;
 	}
+	.p4 {
+		/*@include pro;*/
+		background-repeat: no-repeat;
+		height:100px;
+		background-image:url(../img/logo_recompensas.jpeg);
+		background-position: center;
+    	background-size: 200px 200px;
+	}
+	
 	.list>li {
 		width: 220px;
 		height: 220px;
