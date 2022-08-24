@@ -311,7 +311,9 @@ button.slick-prev {
 		padding: 10px 5px;
 		margin: 0 30px;
 		font-size: 32px;
-		border-top: 1px solid rgba(255,255,255,0.5);
+		//border-top: 1px solid rgba(255,255,255,0.5);
+		border-bottom: 1px solid rgba(255,255,255,0.5);
+		margin-top: 5rem;
 		opacity: 0;
 		transition: all 1s ease-in-out 0.4s;
 	}
@@ -390,14 +392,14 @@ button.slick-prev {
 
 
 /* QUERYS */
-@media (max-width: 905px) {
+/* @media (max-width: 905px) {
     /*.h1_intro, .h2_intro {
     color: #D0FF00;
-    }*/
+    }/
     .love {
     display: none;
     }
-}
+} */
 
 
 /* Extras */
@@ -406,7 +408,7 @@ button.slick-prev {
 }
 
 
-@media (min-width: 200px) and (max-width: 1000px) {
+/* @media (min-width: 200px) and (max-width: 1000px) {
     #karla {
         height: 30rem;
         //background: red;
@@ -420,4 +422,20 @@ button.slick-prev {
             text-align: center;
         }
     }
+} */
+
+@media only screen and (max-width: 400px){
+	/*Small smartphones [325px -> 425px]*/
+	#karla {
+		h2 {
+			color: red;
+			font-size: 19px;
+		}
+	}
+	#contacto {
+		.contact_list {
+			color: #31EFBB;
+			flex-direction: column;
+		}
+	}
 }
