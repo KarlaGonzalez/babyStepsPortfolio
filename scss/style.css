@@ -410,14 +410,16 @@ button.slick-prev {
         }
     }
 } */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) and (max-width: 1000px) {
   /*Small smartphones [325px -> 425px]*/
   #karla h2 {
-    color: red;
     font-size: 19px;
   }
   #contacto .contact_list {
     color: #31EFBB;
     flex-direction: column;
+  }
+  #descriptions {
+    font-size: 19px;
   }
 }/*# sourceMappingURL=style.css.map */

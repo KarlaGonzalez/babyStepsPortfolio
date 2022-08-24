@@ -424,11 +424,11 @@ button.slick-prev {
     }
 } */
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 400px) and (max-width: 1000px){
 	/*Small smartphones [325px -> 425px]*/
 	#karla {
 		h2 {
-			color: red;
+			//color: red !important;
 			font-size: 19px;
 		}
 	}
@@ -437,5 +437,8 @@ button.slick-prev {
 			color: #31EFBB;
 			flex-direction: column;
 		}
+	}
+	#descriptions {
+		font-size: 19px;
 	}
 }
