@@ -412,8 +412,15 @@ button.slick-prev {
 } */
 @media only screen and (max-width: 400px) and (max-width: 1000px) {
   /*Small smartphones [325px -> 425px]*/
+  #karla h1 {
+    color: red !important;
+    font-size: 23px;
+  }
   #karla h2 {
     font-size: 19px;
+  }
+  #proyecto .h1_pro {
+    margin-top: 8rem;
   }
   #contacto .contact_list {
     color: #31EFBB;
@@ -421,5 +428,21 @@ button.slick-prev {
   }
   #descriptions {
     font-size: 19px;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+  #karla h1 {
+    color: orange !important;
+    font-size: 23px;
+    margin-top: 8rem;
+  }
+  #karla h2 {
+    font-size: 19px;
+    padding: 5px 70px;
+  }
+  #contacto .contact_list {
+    color: #31EFBB;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
