@@ -246,7 +246,7 @@ button.slick-prev {
   background-size: 200px 300px;
   background-position: bottom;
 }
-#proyecto .p2 {
+#proyecto .project_gema {
   /*@include pro;*/
   background-repeat: no-repeat;
   height: 100px;
@@ -261,7 +261,7 @@ button.slick-prev {
   background-position: bottom;
   background-size: 200px 300px;
 }
-#proyecto .p4 {
+#proyecto .project_santander {
   /*@include pro;*/
   background-repeat: no-repeat;
   height: 100px;
@@ -277,13 +277,53 @@ button.slick-prev {
   background-position: center;
   background-size: cover;
 }
-#proyecto .p6 {
+#proyecto .project_eficasia {
   /*@include pro;*/
   background-repeat: no-repeat;
   height: 100px;
   background-image: url(../img/eficasia_logo.jpeg);
   background-position: center;
   background-size: cover;
+}
+#proyecto .project_bbva {
+  /*@include pro;*/
+  background-repeat: no-repeat;
+  height: 100px;
+  background-image: url(../img/bbva-logo.png);
+  background-position: center;
+  background-size: contain;
+}
+#proyecto .project_awards {
+  /*@include pro;*/
+  background-repeat: no-repeat;
+  height: 100px;
+  background-image: url(../img/awards.png);
+  background-position: center;
+  background-size: cover;
+}
+#proyecto .project_cookies {
+  /*@include pro;*/
+  background-repeat: no-repeat;
+  height: 100px;
+  background-image: url(../img/cookie.webp);
+  background-position: center;
+  background-size: cover;
+}
+#proyecto .project_aircon {
+  /*@include pro;*/
+  background-repeat: no-repeat;
+  height: 100px;
+  background-image: url(../img/aircon.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#proyecto .project_thermo {
+  /*@include pro;*/
+  background-repeat: no-repeat;
+  height: 100px;
+  background-image: url(../img/tm_logo.jpeg);
+  background-position: center;
+  background-size: contain;
 }
 #proyecto .list > li {
   width: 220px;
@@ -461,12 +501,29 @@ button.slick-prev {
     margin-top: 8rem;
   }
   #karla h2 {
+    padding: 10px 60px !important;
     font-size: 19px;
     padding: 5px 70px;
   }
   #contacto .contact_list {
     color: #31EFBB;
     flex-direction: column;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #karla .container {
+    width: auto;
+  }
+  #karla .container h1 {
+    /* font-size: 23px;
+    margin-top: 8rem; */
+  }
+  #karla .container h2 {
+    line-height: 1.8;
+    font-size: 27px;
+    /* padding: 10px 60px !important;
+    font-size: 19px;
+    padding: 5px 70px; */
   }
 }
 @media only screen and (min-width: 280px) and (max-width: 350px) {

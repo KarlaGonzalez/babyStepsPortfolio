@@ -244,7 +244,7 @@ button.slick-prev {
 		background-size: 200px 300px;
     background-position: bottom;
 	}
-	.p2 {
+	.project_gema {
 		/*@include pro;*/
 		background-repeat: no-repeat;
 		height:100px;
@@ -259,7 +259,7 @@ button.slick-prev {
 		background-position: bottom;
     background-size: 200px 300px;
 	}
-	.p4 {
+	.project_santander {
 		/*@include pro;*/
 		background-repeat: no-repeat;
 		height:100px;
@@ -275,13 +275,53 @@ button.slick-prev {
 		background-position: center;
     	background-size: cover;
 	}
-	.p6 {
+	.project_eficasia {
 		/*@include pro;*/
 		background-repeat: no-repeat;
 		height:100px;
 		background-image:url(../img/eficasia_logo.jpeg);
 		background-position: center;
     	background-size: cover;
+	}
+	.project_bbva {
+		/*@include pro;*/
+		background-repeat: no-repeat;
+		height:100px;
+		background-image:url(../img/bbva-logo.png);
+		background-position: center;
+    	background-size: contain;
+	}
+	.project_awards {
+		/*@include pro;*/
+		background-repeat: no-repeat;
+		height:100px;
+		background-image:url(../img/awards.png);
+		background-position: center;
+    	background-size: cover;
+	}
+	.project_cookies {
+		/*@include pro;*/
+		background-repeat: no-repeat;
+		height:100px;
+		background-image:url(../img/cookie.webp);
+		background-position: center;
+    	background-size: cover;
+	}
+	.project_aircon {
+		/*@include pro;*/
+		background-repeat: no-repeat;
+		height:100px;
+		background-image:url(../img/aircon.jpg);
+		background-position: center;
+    	background-size: cover;
+	}
+	.project_thermo {
+		/*@include pro;*/
+		background-repeat: no-repeat;
+		height:100px;
+		background-image:url(../img/tm_logo.jpeg);
+		background-position: center;
+    	background-size: contain;
 	}
 	
 	.list>li {
@@ -483,6 +523,7 @@ button.slick-prev {
 		}
 		h2 {
 			//color: red !important;
+			padding: 10px 60px !important;
 			font-size: 19px;
 			padding: 5px 70px;
 		}
@@ -491,6 +532,31 @@ button.slick-prev {
 		.contact_list {
 			color: #31EFBB;
 			flex-direction: column;
+		}
+	}
+}
+
+//ipad air
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	#karla {
+		//margin-top: 7rem;
+		.container {
+			width: auto;
+			h1 {
+				//color: greenyellow !important;
+				/* font-size: 23px;
+				margin-top: 8rem; */
+			}
+			h2 {
+				//color: olive !important;
+				line-height: 1.8;
+				font-size: 27px;
+				/* padding: 10px 60px !important;
+				font-size: 19px;
+				padding: 5px 70px; */
+			}
 		}
 	}
 }
