@@ -42,57 +42,57 @@ p:hover {
   color: #31EFBB !important;
 }
 
-#karla {
+#intro {
   margin-top: 15rem;
   height: 440px;
   display: flex;
   background: white;
 }
-#karla .profile-img {
+#intro .profile-img {
   margin-top: 15vh;
 }
-#karla .love {
+#intro .love {
   /*height: 400px;*/
   /*width: 390px;*/
   /*left: 260px;*/
   top: 0px;
   position: relative;
 }
-#karla .intro {
+#intro .intro {
   position: absolute;
   top: 17vh;
   left: 24vh;
 }
-#karla .icon_intro {
+#intro .icon_intro {
   font-size: 30px;
   color: black;
   padding: 20px 20px;
 }
-#karla .icon_intro:hover {
+#intro .icon_intro:hover {
   color: #31EFBB;
 }
-#karla .li_intro {
+#intro .li_intro {
   display: inline-block;
 }
-#karla .list-container {
+#intro .list-container {
   display: flex;
   justify-content: center;
 }
-#karla .ul_intro {
+#intro .ul_intro {
   list-style: none;
   padding: 0;
   display: inline-flex;
 }
-#karla .h1_intro {
+#intro .h1_intro {
   margin-top: 50px;
 }
-#karla .h1_intro, #karla .h2_intro, #karla .h3_intro {
+#intro .h1_intro, #intro .h2_intro, #intro .h3_intro {
   text-align: center;
 }
-#karla .h1_intro, #karla .h3_intro {
+#intro .h1_intro, #intro .h3_intro {
   color: black;
 }
-#karla .h2_intro {
+#intro .h2_intro {
   color: #545454;
 }
 
