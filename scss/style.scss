@@ -4,6 +4,18 @@
 // ------ FONTS ---------
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);*/
 
+/* h1, h2, h3 {
+	text-align: center;
+} */
+$h1-gray: #545454; 
+
+h1 {
+	color: $gray;
+}
+
+h2 {
+	color: gray;
+}
 
 body {
 	font-family: 'Fjalla One', sans-serif;
@@ -21,11 +33,7 @@ body {
 }
 
 #background {}
-.h1_pro {
-    color: black;
-    text-align: center;
-    padding: 50px 0px;;
-}
+
 p {
     font-family: 'Fjalla One', sans-serif;
 }
@@ -45,6 +53,11 @@ p:hover {
 	    height: 440px;
 	display: flex;
     background: white;
+	.h2-style {
+		color: gray;
+		text-align: center;
+		line-height: 1.8; padding: 10px 80px;
+	}
     .profile-img {
         margin-top: 15vh;
     }
@@ -83,32 +96,11 @@ p:hover {
   .h1_intro {
       margin-top: 50px;
   }
-  .h1_intro, .h2_intro, .h3_intro {
-      text-align: center;
-  }
   .h1_intro, .h3_intro {
       color: black;
   }
-  .h2_intro {
-      color: #545454;
-  }
 }
 
-#carousel {
-    height: 55vh;
-    .item_skill {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-flow: column nowrap;
-    }
-    .item_skill:not(.slick-center) {
-        /*color: #00FFA9;*/
-        opacity: .4;
-        transform: scale(.5);
-    }
-    
-}
 button.slick-next {
 	margin-right: 30px;
 }
